@@ -17,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		446B484B218BE9E5006BE0DE /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		44F570BC218AA298001CEF97 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44F570BF218AA298001CEF97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44F570C1218AA298001CEF97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,11 +40,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		446B484A218BE9E5006BE0DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				446B484B218BE9E5006BE0DE /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44F570B3218AA298001CEF97 = {
 			isa = PBXGroup;
 			children = (
 				44F570BE218AA298001CEF97 /* Concentration */,
 				44F570BD218AA298001CEF97 /* Products */,
+				446B484A218BE9E5006BE0DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
